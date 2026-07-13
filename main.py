@@ -1,4 +1,5 @@
 import pandas as pn
 import numpy as np 
 
-df = read_xlsx(data_xlsx)
+df = pd.read_xlsx(data_xlsx)
+df.head()
